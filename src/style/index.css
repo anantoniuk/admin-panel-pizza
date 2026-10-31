@@ -1,0 +1,6 @@
+@import "./reset.css";
+@import "./main-style.css";
+@import "./modal.css";
+img {
+  width: 200px;
+}

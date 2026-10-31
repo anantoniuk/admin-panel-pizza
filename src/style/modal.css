@@ -1,0 +1,23 @@
+.modal {
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+}
+.modal-form {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.modal-input {
+  padding: 10;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+}
+.modal-btn {
+  padding: 15px 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  background-color: yellowgreen;
+}

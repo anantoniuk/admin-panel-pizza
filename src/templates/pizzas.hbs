@@ -1,0 +1,29 @@
+<ul class="pizzas-list">
+  {{#each this}}
+    <li class="pizzas-item">
+      <article class="pizza" data-id-pizza="{{id}}">
+        <div class="photo">
+          <img src="{{image}}" alt="{{name}}" class="pizza-img" />
+        </div>
+        <div class="pizza-meta">
+          <h2 class="pizza-title">{{name}}</h2>
+          <p class="pizza-price">{{price}}</p>
+          <ul class="pizza-ingredients">
+            {{#each ingredients}}
+              <li class="pizza-ingredients-item">
+                {{this}}
+              </li>
+            {{/each}}
+          </ul>
+        </div>
+        <div class="pizza-actions">
+          <button data-pizza-action="edit" class="action-btn edit">Edit</button>
+          <button
+            data-pizza-action="delete"
+            class="action-btn delete"
+          >Delete</button>
+        </div>
+      </article>
+    </li>
+  {{/each}}
+</ul>

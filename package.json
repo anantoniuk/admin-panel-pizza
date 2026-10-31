@@ -4,14 +4,28 @@
   "type": "module",
   "scripts": {
     "start": "parcel ./src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "server": "json-server --watch ./data/db.json"
   },
   "keywords": [],
-  "author": "Vladyslav Mahar <mv@gmail.com>",
+  "author": "Antoniuk Anna",
   "license": "ISC",
   "description": "Admin panel for Pizza restaurant",
   "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.16.1",
     "json-server": "^1.0.0-beta.3",
     "parcel": "^2.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anantoniuk/admin-panel-pizza.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anantoniuk/admin-panel-pizza/issues"
+  },
+  "homepage": "https://github.com/anantoniuk/admin-panel-pizza#readme",
+  "dependencies": {
+    "basiclightbox": "^5.0.4",
+    "handlebars": "^4.7.10"
   }
 }

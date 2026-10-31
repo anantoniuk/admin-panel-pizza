@@ -2,6 +2,18 @@
   "pizzas": [
     {
       "id": "ewq1",
+      "name": "Пепероні",
+      "price": 140,
+      "ingredients": [
+        "Томатний соус",
+        "Сир моцарела",
+        "Пепероні",
+        "Орегано"
+      ],
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e"
+    },
+    {
+      "id": "ewq2",
       "name": "Маргарита",
       "price": 110,
       "ingredients": [
@@ -10,7 +22,61 @@
         "Свіжий базилік",
         "Оливкова олія"
       ],
-      "image": "https://grigliata.com.ua/wp-content/uploads/2023/04/Margarita.jpg"
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002"
+    },
+    {
+      "id": "ewq3",
+      "name": "Гавайська",
+      "price": 135,
+      "ingredients": [
+        "Томатний соус",
+        "Сир моцарела",
+        "Куряче філе",
+        "Ананас",
+        "Орегано"
+      ],
+      "image": "https://images.unsplash.com/photo-1564128442383-9201fcc740eb"
+    },
+    {
+      "id": "ewq4",
+      "name": "Чотири сири",
+      "price": 160,
+      "ingredients": [
+        "Вершковий соус",
+        "Моцарела",
+        "Пармезан",
+        "Дорблю",
+        "Чедер"
+      ],
+      "image": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47"
+    },
+    {
+      "id": "ewq5",
+      "name": "М'ясна",
+      "price": 175,
+      "ingredients": [
+        "Томатний соус",
+        "Моцарела",
+        "Бекон",
+        "Салямі",
+        "Куряче філе",
+        "Перець"
+      ],
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591"
+    },
+    {
+      "id": "ewq6",
+      "name": "Вегетаріанська",
+      "price": 125,
+      "ingredients": [
+        "Томатний соус",
+        "Моцарела",
+        "Печериці",
+        "Болгарський перець",
+        "Оливки",
+        "Помідори"
+      ],
+      "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498"
     }
   ]
 }
